@@ -1,0 +1,5 @@
+kubectl apply -f namespace.yaml
+kubectl apply -f elasticsearch.yaml
+kubectl apply -f kibana.yaml
+kubectl apply -f fluentd.yaml
+kubectl get services -n kube-logging
